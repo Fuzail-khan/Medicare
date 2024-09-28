@@ -8,7 +8,7 @@ const Home = () => {
       {/* First Section */}
       <div className="homepage-first-section">
         <div className="content-container" id='home-bg'>
-          <h1 className="title">Caring for Your</h1>
+          <h1 className="title">Caring for  Health</h1>
         </div>
       </div>
 

@@ -64,6 +64,6 @@
 .team-image {
   width: 100%; /* Cover full width */
   height: auto; /* Maintain aspect ratio */
-  object-fit: cover; /* Ensure the image covers the area */
+  object-fit: cover;
   border-radius: 80px 10px;
 }
