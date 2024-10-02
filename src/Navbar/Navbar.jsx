@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './Navbar.css';
+import { Link } from 'react-router-dom';
+
 
 const Navbar = () => {
   const [location, setLocation] = useState('Locating...');
@@ -67,10 +69,10 @@ const Navbar = () => {
         <div className="container">
           <img src="/logo.png" alt="Logo" className="logo" /> {/* Logo Image */}
           <div className="menu">
-            <a href="#home">Home</a>
-            <a href="#about">About Us</a>
-            <a href="#providers">Our Providers</a>
-            <a href="#contact">Contact Us</a>
+            <Link to="/">Home</Link>
+            <Link to="/about">About Us</Link>
+            <Link to="/providers">Our Providers</Link>
+            <Link to="/contact">Contact Us</Link>
           </div>
           <button className="login-button">Patient Login</button>
         </div>

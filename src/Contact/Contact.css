@@ -1,0 +1,205 @@
+/* Apply same color theme and styling as other sections */
+.contact-page {
+  font-family: "Noto Sans", sans-serif;
+  padding: 40px 0;
+  background-color: #ffffff; /* Matches the page background */
+}
+
+/* New Contact Page Header */
+.contact-header {
+  background-color: #e7f5f4;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.contact-header h1 {
+  font-size: 36px;
+  color: #368387;
+  margin: 0 0 10px 0; /* Adjust margin to bring the breadcrumb closer */
+}
+
+.breadcrumb {
+  color: #558a8d;
+  font-size: 16px;
+  margin-bottom: 20px; /* Adjust space below breadcrumb */
+}
+
+.breadcrumb span {
+  color: #368387;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-columns {
+  display: flex;
+  gap: 20px;
+}
+
+.google-map-column {
+  flex: 1;
+}
+
+.form-column {
+  flex: 1;
+  background-color: #558a8d; /* Matches the Footer background */
+  padding: 20px;
+  color: white;
+  border-radius: 10px;
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  font-size: 18px;
+  margin-bottom: 5px;
+  display: block;
+  color: white;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+input {
+  height: 40px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.submit-button {
+  background-color: #368387;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.submit-button:hover {
+  background-color: #2d6f6d;
+}
+
+.content h1{
+  text-align: center;
+  padding-top: 5%;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.box-container {
+  padding: 26px 100px;
+  display: flex;
+  margin: 10px;
+  font-family: "Noto Sans", sans-serif;
+}
+.box-container img {
+  width: 50px;  /* Set the width of the image */
+  height: auto;  /* Maintain aspect ratio based on width */
+  max-width: 100%; /* Ensure it doesn’t exceed its container */
+}
+.box-1{
+  background-color: #F5F9FF;
+  border-radius: 20px;
+  flex-direction: column;
+  align-items: center;
+  width: 32%;
+  padding: 40px 20px;
+  display: flex;
+  height: 200px;
+  margin: 15px;
+  float: left;
+  text-align: center;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.box-container h2{
+  color: black;
+}
+
+.box-2{
+  background-color: #F5FBF8;
+  border-radius: 20px;
+  flex-direction: column;
+  align-items: center;
+  width: 32%;
+  padding: 40px 20px;
+  display: flex;
+  height: 200px;
+  margin: 15px;
+  float: right;
+  text-align: center;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.box-3{
+  background-color: #FFF8F8 ;
+  border-radius: 20px;
+  flex-direction: column;
+  align-items: center;
+  width: 32%;
+  padding: 40px 20px;
+  display: flex;
+  height: 200px;
+  margin: 15px;
+  text-align: center;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.contact-button-container {
+  display: flex;
+  justify-content: center; /* Centers the button horizontally */
+  margin-top: 20px;
+}
+
+.get-in-touch-btn {
+  background-color: #eaf6f0; /* Light green background */
+  color: #1d9b6c; /* Green text color */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px; /* Rounded corners */
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.get-in-touch-btn:hover {
+  background-color: #d0ece2; /* Darken background on hover */
+}
+
+.map-container {
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.map-container iframe {
+  width: 100%;
+  max-width: 1300px; /* Adjust to fit your design */
+  height: 350px;
+  border-radius: 10px;
+  border: none;
+}
