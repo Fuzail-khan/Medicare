@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import './Navbar.css';
 import { Link } from 'react-router-dom';
 
-
 const Navbar = () => {
   const [location, setLocation] = useState('Locating...');
   const [dateTime, setDateTime] = useState('');
@@ -74,7 +73,10 @@ const Navbar = () => {
             <Link to="/providers">Our Providers</Link>
             <Link to="/contact">Contact Us</Link>
           </div>
-          <button className="login-button">Patient Login</button>
+          {/* Link to Login Page */}
+          <Link to="/login">
+            <button className="login-button">Login</button>
+          </Link>
         </div>
       </div>
     </nav>
