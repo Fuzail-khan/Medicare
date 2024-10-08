@@ -25,7 +25,7 @@ const Contact = () => {
         <div class="box-1">
         <img src={require('../Asset/location-logo.png')} alt="Location" />
          <h2>Office location</h2>
-         <p>123 Example St, Hamilton,<br></br>ON Canada</p>
+         <p>274 Colborne St, Brantford,<br></br> ON N3T 2L6</p>
         </div>
         <div class="box-2">
         <img src={require('../Asset/cell-logo.png')} alt="Location" />
@@ -49,7 +49,7 @@ const Contact = () => {
       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2914.1230178987556!2d-80.25694168451985!3d43.13938697914262!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882c79b31e792d55%3A0x7cdb77bc3e9ae43!2sConestoga%20College%20-%20Brantford%20Campus!5e0!3m2!1sen!2sca!4v1696174893215!5m2!1sen!2sca"
       width="600"
       height="450"
-      style={{ border: 0, width: '100%', height: '300px', borderRadius: '10px' }}
+      style={{ border: 0, width: '1200px', height: '450px', borderRadius: '10px' }}
       allowFullScreen=""
       loading="lazy"
       referrerPolicy="no-referrer-when-downgrade">

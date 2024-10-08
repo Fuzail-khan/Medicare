@@ -1,7 +1,7 @@
 /* Apply same color theme and styling as other sections */
 .contact-page {
   font-family: "Noto Sans", sans-serif;
-  padding: 40px 0;
+  padding: 0px 0;
   background-color: #ffffff; /* Matches the page background */
 }
 
@@ -13,7 +13,7 @@
 }
 
 .contact-header h1 {
-  font-size: 36px;
+  font-size: 60px;
   color: #368387;
   margin: 0 0 10px 0; /* Adjust margin to bring the breadcrumb closer */
 }
@@ -33,6 +33,7 @@
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .contact-columns {
@@ -54,7 +55,7 @@
 
 h2 {
   font-size: 32px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   color: white;
 }
 
@@ -74,7 +75,8 @@ label {
   color: white;
 }
 
-input, textarea {
+input,
+textarea {
   width: 100%;
   padding: 10px;
   border: none;
@@ -104,66 +106,65 @@ textarea {
   background-color: #2d6f6d;
 }
 
-.content h1{
+.content h1 {
   text-align: center;
   padding-top: 5%;
   font-family: "Noto Sans", sans-serif;
+  color: #558a8d;
 }
 
 .box-container {
-  padding: 26px 100px;
+  width: 1200px;
   display: flex;
-  margin: 10px;
+  margin: 0 auto;
   font-family: "Noto Sans", sans-serif;
 }
 .box-container img {
-  width: 50px;  /* Set the width of the image */
-  height: auto;  /* Maintain aspect ratio based on width */
+  width: 50px; /* Set the width of the image */
+  height: auto; /* Maintain aspect ratio based on width */
   max-width: 100%; /* Ensure it doesn’t exceed its container */
 }
-.box-1{
-  background-color: #F5F9FF;
+.box-1 {
+  background-color: #f5f9ff;
   border-radius: 20px;
   flex-direction: column;
   align-items: center;
   width: 32%;
   padding: 40px 20px;
   display: flex;
-  height: 200px;
   margin: 15px;
   float: left;
   text-align: center;
   font-family: "Noto Sans", sans-serif;
 }
 
-.box-container h2{
-  color: black;
+.box-container h2 {
+  font-size: 26px;
+  color: #558a8d;
 }
 
-.box-2{
-  background-color: #F5FBF8;
+.box-2 {
+  background-color: #f5fbf8;
   border-radius: 20px;
   flex-direction: column;
   align-items: center;
   width: 32%;
   padding: 40px 20px;
   display: flex;
-  height: 200px;
   margin: 15px;
   float: right;
   text-align: center;
   font-family: "Noto Sans", sans-serif;
 }
 
-.box-3{
-  background-color: #FFF8F8 ;
+.box-3 {
+  background-color: #fff8f8;
   border-radius: 20px;
   flex-direction: column;
   align-items: center;
   width: 32%;
   padding: 40px 20px;
   display: flex;
-  height: 200px;
   margin: 15px;
   text-align: center;
   font-family: "Noto Sans", sans-serif;
