@@ -1,11 +1,11 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
+import Contact from './Contact/Contact';
 import Footer from './Footer/Footer';
 import Home from './Home/Home';
-import Navbar from './Navbar/Navbar';
-import Contact from './Contact/Contact';
 import Login from './Login/Login';
 import Signup from './Login/Signup';
+import Navbar from './Navbar/Navbar';
 
 function App() {
   return (
@@ -23,5 +23,6 @@ function App() {
     </Router>
   );
 }
+// asdasd
 
 export default App;
