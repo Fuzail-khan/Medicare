@@ -15,7 +15,7 @@
 }
 .homepage-first-section {
   align-items: left; /* Vertically center the content */
-  padding: 0 20px;
+  padding: 0 20px; /* Add horizontal padding */
   color: #558a8d; /* Text color */
 }
 
@@ -64,6 +64,6 @@
 .team-image {
   width: 100%; /* Cover full width */
   height: auto; /* Maintain aspect ratio */
-  object-fit: cover;
+  object-fit: cover; /* Ensure the image covers the area */
   border-radius: 80px 10px;
 }

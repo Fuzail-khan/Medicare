@@ -7,8 +7,9 @@ const Footer = () => {
     <footer className="footer">
       <div className="container">
         <div className="footer-column">
-          <div className="logo">Your Logo</div>
-          <p className="description">A short description about your company short description abo short description abo.</p>
+        <div className="footer-logo">
+            <img src="/footer-logo.png" alt="Footer Logo" className="footer-logo" />
+          </div>          <p className="description">We ensure quality healthcare with state-of-the-art <br></br>facilities and patient-focused solutions.</p>
           <div className="social-icons">
             <FaFacebook />
             <FaTwitter />
@@ -16,11 +17,11 @@ const Footer = () => {
           </div>
           <div className="location">
             <FaMapMarkerAlt />
-            <span>123 Example St, Hamilton, ON, Canada</span>
+            <span>274 Colborne St, Brantford, ON N3T 2L6</span>
           </div>
         </div>
 
-        <div className="footer-column">
+        <div className="footer-column2">
           <h4>Quick Links</h4>
           <ul>
             <li><a href="#patient-portal">Patient Portal</a></li>
@@ -31,7 +32,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className="footer-column">
+        <div className="footer-column3">
           <h4>Contact Information</h4>
           <div className="contact-info">
             <div className="contact-item"><FaPhone /> 123-456-7890</div>
