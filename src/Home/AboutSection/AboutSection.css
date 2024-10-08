@@ -1,0 +1,95 @@
+/* src/Home/AboutSection/AboutSection.css */
+
+.about-section-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1200px; /* Set the width as specified */
+  margin: 0 auto; /* Center the section */
+  padding: 80px 0px 60px 0px; /* Add some padding */
+}
+
+.about-left-column {
+  flex: 1; /* Make it flexible */
+  margin-right: 20px; /* Add some space between columns */
+}
+
+.about-left-column p {
+  color: #368387;
+  padding-bottom: 20px;
+}
+
+.about-right-column {
+  flex: 1; /* Make it flexible */
+}
+
+.about-label {
+  color: #368387;
+  background-color: rgba(67, 186, 127, 0.1);
+  border-radius: 18.5px;
+  padding: 4px 16px;
+  font-size: 18px;
+  line-height: 1.76;
+  display: inline-block;
+}
+
+.about-title {
+  font-size: 30px;
+  margin: 10px 0; /* Add some margin */
+  color: #368387;
+}
+
+.about-image {
+  width: 100%; /* Make the image responsive */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.learn-more-button {
+  background-color: #368387;
+  color: white;
+  padding: 8px 26px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 18px;
+  margin-top: 25px;
+}
+
+.learn-more-button:hover {
+  background-color: #558a8d; /* Darker shade on hover */
+}
+
+/* Styles for the info grid */
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Create a 2x2 grid */
+  gap: 20px; /* Space between boxes */
+  margin: 20px 0; /* Margin above and below the grid */
+  width: 80%;
+}
+
+.info-box {
+  background-color: rgba(67, 186, 127, 0.1); /* Light background color */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Padding inside the box */
+  text-align: center; /* Center text */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.info-box h3 {
+  color: #368387;
+
+  font-size: 24px; /* Larger font size for numbers */
+  margin: 0; /* Remove margin */
+  transition: transform 0.2s ease; /* Smooth transform effect */
+}
+
+.info-box h3:hover {
+  transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+.info-box p {
+  margin: 5px 0 0; /* Margin for paragraph */
+  font-size: 16px; /* Font size for description */
+}

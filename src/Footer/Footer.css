@@ -1,81 +1,101 @@
 .footer {
   background-color: #558a8d;
   color: white;
-  padding: 40px 0; /* Vertical padding for the footer */
+  padding: 40px 0;
 }
 
 .container {
-  max-width: 1200px; /* Set maximum width for the footer content */
-  margin: 0 auto; /* Center the footer content */
+  max-width: 1200px;
+  margin: 0 auto;
   display: flex;
-  justify-content: space-between; /* Distribute space evenly between columns */
-  flex-wrap: wrap; /* Allow columns to wrap on smaller screens */
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: flex-start; /* Align columns' content at the top */
 }
 
 .footer-column {
-  flex: 1; /* Each column takes equal width */
-  margin: 10px; /* Margin around columns */
-  min-width: 200px; /* Set minimum width for responsive behavior */
+  flex: 1.6 1;
+  margin: 10px;
+  min-width: 200px;
+  display: flex;
+  flex-direction: column; /* Ensure content stacks vertically */
+  align-items: flex-start; /* Make sure content aligns to the top */
+}
+.footer-column2 {
+  flex: 1 1;
+  margin: 10px;
+  min-width: 200px;
+  display: flex;
+  flex-direction: column; /* Ensure content stacks vertically */
+  align-items: flex-start; /* Make sure content aligns to the top */
 }
 
-.logo {
-  font-size: 24px;
-  font-weight: bold;
+.footer-column3 {
+  flex: 1;
+  margin: 10px;
+  min-width: 200px;
+  display: flex;
+  flex-direction: column; /* Ensure content stacks vertically */
+  align-items: flex-start; /* Make sure content aligns to the top */
+}
+
+.footer-logo {
+  width: 200px;
 }
 
 .description {
-  margin: 10px 0; /* Spacing above and below description */
+  margin: 10px 0;
 }
 
 .social-icons {
-  margin: 20px 0; /* Spacing above and below social icons */
-  font-size: 30px; /* Size of social icons */
+  margin: 20px 0;
+  font-size: 30px;
 }
 
 .social-icons > * {
-  margin-right: 20px; /* Space between icons */
+  margin-right: 20px;
 }
 
 .social-icons > *:last-child {
-  margin-right: 0; /* Remove margin from the last icon */
+  margin-right: 0;
 }
 
 .location {
   display: flex;
-  align-items: center; /* Center icons vertically */
+  align-items: center;
 }
 
 .location span {
-  margin-left: 5px; /* Spacing between icon and text */
+  margin-left: 5px;
 }
 
 h4 {
   margin-bottom: 10px;
-  font-size: 22px; /* Spacing below section titles */
+  font-size: 22px;
 }
 
 ul {
-  list-style-type: none; /* Remove bullet points */
-  padding: 0; /* Remove padding */
+  list-style-type: none;
+  padding: 0;
 }
 
 ul li {
-  margin: 5px 0; /* Spacing between links */
+  margin: 5px 0;
 }
 
 a {
-  color: white; /* Link color */
-  text-decoration: none; /* Remove underline from links */
+  color: white;
+  text-decoration: none;
 }
 
 .contact-info {
-  margin-top: 10px; /* Spacing above contact information */
+  margin-top: 10px;
 }
 
 .contact-item {
-  margin: 5px 0; /* Spacing between contact items */
+  margin: 5px 0;
 }
 
 .hours {
-  margin-top: 10px; /* Spacing above hours */
+  margin-top: 10px;
 }

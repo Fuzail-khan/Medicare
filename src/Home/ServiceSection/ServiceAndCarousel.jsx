@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 import './ServiceAndCarousel.css'; // Ensure this file is in the same folder
 
@@ -32,6 +32,9 @@ const services = [
 
 const ServiceAndCarousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [isVisible, setIsVisible] = useState(false); // State to track visibility
+  const sectionRef = useRef(null); // Ref for the container
+
   const totalItems = services.length;
 
   const handleNext = () => {
@@ -46,12 +49,37 @@ const ServiceAndCarousel = () => {
     }
   };
 
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            setIsVisible(true);
+          } else {
+            setIsVisible(false); // Set to false when not in view
+          }
+        });
+      },
+      { threshold: 0.1 } // Trigger when 10% of the section is visible
+    );
+
+    if (sectionRef.current) {
+      observer.observe(sectionRef.current);
+    }
+
+    return () => {
+      if (sectionRef.current) {
+        observer.unobserve(sectionRef.current);
+      }
+    };
+  }, []);
+
   return (
-    <div className="service-carousel-container">
+    <div className={`service-carousel-container ${isVisible ? 'zoom-in' : ''}`} ref={sectionRef}>
       {/* Service Section */}
       <div className="service-section">
         <div className="content-container">
-          <span className="service-label">Service</span>
+          <span className="service-label">Services</span>
           <h2 className="service-heading">The Best Quality Service You Can Get</h2>
         </div>
       </div>

@@ -3,6 +3,13 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 60px;
+  background-color: #ecf8f2;
+  border-radius: 10px;
+  transition: transform 0.8s ease-in-out;
+}
+
+.service-carousel-container.zoom-in {
+  transform: scale(1.06); /* Adjust the scale as needed */
 }
 
 /* Service section */

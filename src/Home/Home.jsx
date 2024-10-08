@@ -1,6 +1,9 @@
 import React from 'react';
+import AboutSection from './AboutSection/AboutSection';
 import './Home.css';
+import OurDoctors from './OurDoctors/OurDoctors';
 import ServiceAndCarousel from './ServiceSection/ServiceAndCarousel';
+import WhyChooseUs from './WhyChooseUs/WhyChooseUs';
 
 const Home = () => {
   return (
@@ -8,7 +11,7 @@ const Home = () => {
       {/* First Section */}
       <div className="homepage-first-section">
         <div className="content-container" id='home-bg'>
-          <h1 className="title">Caring for  Health</h1>
+          <h1 className="title">Caring for Your</h1>
         </div>
       </div>
 
@@ -37,8 +40,12 @@ const Home = () => {
 
 {/* Our Doctors */}
   
-
+<AboutSection /> 
     <ServiceAndCarousel />
+    <OurDoctors />
+    <WhyChooseUs />
+
+    
 
     </div>
   );
