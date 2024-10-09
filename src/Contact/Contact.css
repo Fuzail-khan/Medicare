@@ -1,11 +1,9 @@
-/* Apply same color theme and styling as other sections */
 .contact-page {
   font-family: "Noto Sans", sans-serif;
   padding: 0px 0;
-  background-color: #ffffff; /* Matches the page background */
+  background-color: #ffffff; 
 }
 
-/* New Contact Page Header */
 .contact-header {
   background-color: #e7f5f4;
   padding: 60px 0;
@@ -15,13 +13,13 @@
 .contact-header h1 {
   font-size: 60px;
   color: #368387;
-  margin: 0 0 10px 0; /* Adjust margin to bring the breadcrumb closer */
+  margin: 0 0 10px 0; 
 }
 
 .breadcrumb {
   color: #558a8d;
   font-size: 16px;
-  margin-bottom: 20px; /* Adjust space below breadcrumb */
+  margin-bottom: 20px; 
 }
 
 .breadcrumb span {
@@ -47,7 +45,7 @@
 
 .form-column {
   flex: 1;
-  background-color: #558a8d; /* Matches the Footer background */
+  background-color: #558a8d; 
   padding: 20px;
   color: white;
   border-radius: 10px;
@@ -120,9 +118,9 @@ textarea {
   font-family: "Noto Sans", sans-serif;
 }
 .box-container img {
-  width: 50px; /* Set the width of the image */
-  height: auto; /* Maintain aspect ratio based on width */
-  max-width: 100%; /* Ensure it doesn’t exceed its container */
+  width: 50px; 
+  height: auto; 
+  max-width: 100%; 
 }
 .box-1 {
   background-color: #f5f9ff;
@@ -172,23 +170,23 @@ textarea {
 
 .contact-button-container {
   display: flex;
-  justify-content: center; /* Centers the button horizontally */
+  justify-content: center; 
   margin-top: 20px;
 }
 
 .get-in-touch-btn {
-  background-color: #eaf6f0; /* Light green background */
-  color: #1d9b6c; /* Green text color */
+  background-color: #eaf6f0; 
+  color: #1d9b6c; 
   border: none;
   padding: 10px 20px;
-  border-radius: 25px; /* Rounded corners */
+  border-radius: 25px; 
   font-size: 16px;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 .get-in-touch-btn:hover {
-  background-color: #d0ece2; /* Darken background on hover */
+  background-color: #d0ece2; 
 }
 
 .map-container {
@@ -199,7 +197,7 @@ textarea {
 
 .map-container iframe {
   width: 100%;
-  max-width: 1300px; /* Adjust to fit your design */
+  max-width: 1300px; 
   height: 350px;
   border-radius: 10px;
   border: none;

@@ -1,8 +1,7 @@
-// src/Home/AboutSection/AboutSection.jsx
-
 import React, { useEffect, useRef, useState } from 'react';
 import './AboutSection.css';
-import aboutImage from './about-image.png'; // Adjust the path as necessary
+import aboutImage from './about-image.png';
+import { Link } from 'react-router-dom'; 
 
 const AboutSection = () => {
   const [patientsCount, setPatientsCount] = useState(0);
@@ -17,8 +16,8 @@ const AboutSection = () => {
       (entries) => {
         if (entries[0].isIntersecting && !hasAnimated) {
           animateCounts();
-          setHasAnimated(true); // Prevent reanimation
-          observer.disconnect(); // Stop observing once animated
+          setHasAnimated(true); // it prevent reanimation
+          observer.disconnect(); 
         }
       },
       { threshold: 0.1 } // Trigger when 10% of the section is visible
@@ -81,8 +80,9 @@ const AboutSection = () => {
           </div>
         </div>
 
-        <button className="learn-more-button">Learn More</button>
-      </div>
+        <Link to="/about" className="learn-more-button">
+  Learn More
+</Link>      </div>
       <div className="about-right-column">
         <img src={aboutImage} alt="About" className="about-image" />
       </div>

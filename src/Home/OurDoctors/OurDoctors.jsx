@@ -1,5 +1,5 @@
 import React from 'react';
-import './OurDoctors.css'; // Ensure your CSS file is linked
+import './OurDoctors.css'; 
 
 const doctors = [
   {
@@ -31,7 +31,6 @@ const doctors = [
 const OurDoctors = () => {
   return (
     <div className="our-doctors-section">
-      {/* First Section - Title and Button */}
       <div className="our-doctors-header">
         <div className="left-column">
           <span className="small-text">Our Specialists</span>
@@ -44,7 +43,6 @@ const OurDoctors = () => {
         </div>
       </div>
 
-      {/* Doctor Cards Section */}
       <div className="doctors-grid">
         {doctors.map((doctor, index) => (
           <div className="doctor-card" key={index}>

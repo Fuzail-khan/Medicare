@@ -9,7 +9,6 @@ const Login = () => {
 
   const handleLogin = (e) => {
     e.preventDefault();
-    // Handle login logic here
     console.log('User Type:', userType, 'Email:', email, 'Password:', password);
   };
 

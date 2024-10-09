@@ -27,11 +27,10 @@ const Home = () => {
           </div>
         </div>
       </div>
-{/* hero image for top section */}
       <div className="homepage-third-section">
         <div className="content-container">
           <img
-            src={require('./successful-medical-team_329181-9252.jpg')} // Adjust path as necessary
+            src={require('./successful-medical-team_329181-9252.jpg')} 
             alt="Successful Medical Team"
             className="team-image"
           />

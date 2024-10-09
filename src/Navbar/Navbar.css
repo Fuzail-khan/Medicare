@@ -1,26 +1,23 @@
-/* Import Noto Sans font */
 body {
-  font-family: "Noto Sans", sans-serif; /* Apply Noto Sans font to the body */
+  font-family: "Noto Sans", sans-serif; 
   margin: 0px !important;
 }
 
-/* Full-width First Section: Location and Date-Time */
 .first-section {
   background-color: #558a8d;
   color: white;
-  padding: 10px 0; /* Vertical padding only */
+  padding: 10px 0; 
 }
 
 .first-section .container {
   max-width: 1200px;
-  margin: 0 auto; /* Centers the inner content */
-  padding: 0 20px; /* Optional horizontal padding */
+  margin: 0 auto; 
+  padding: 0 20px; 
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-/* Full-width Second Section: Logo, Menu, and Login Button */
 .second-section {
   background-color: white;
   color: #368387;
@@ -30,8 +27,8 @@ body {
 
 .second-section .container {
   max-width: 1200px;
-  margin: 0 auto; /* Centers the inner content */
-  padding: 0 20px; /* Optional horizontal padding */
+  margin: 0 auto; 
+  padding: 0 20px; 
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -45,7 +42,6 @@ body {
   color: #368387;
 }
 
-/* Menu Styles */
 .menu {
   display: flex;
   gap: 20px;
@@ -65,18 +61,16 @@ body {
   border-radius: 10px;
   border: none;
   cursor: pointer;
-  font-family: "Noto Sans", sans-serif; /* Use Noto Sans for the login button */
-  font-size: 18px; /* Optional: Adjust font size for the login button */
+  font-family: "Noto Sans", sans-serif; 
+  font-size: 18px; 
 }
 
-/* Sticky Navbar */
 nav {
   position: sticky;
   top: 0;
   z-index: 100;
 }
 
-/* Ensure proper reset for links and buttons */
 a,
 button {
   text-decoration: none;

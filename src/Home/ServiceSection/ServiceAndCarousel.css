@@ -1,4 +1,3 @@
-/* General container */
 .service-carousel-container {
   max-width: 1200px;
   margin: 0 auto;
@@ -9,7 +8,7 @@
 }
 
 .service-carousel-container.zoom-in {
-  transform: scale(1.06); /* Adjust the scale as needed */
+  transform: scale(1.06); 
 }
 
 /* Service section */
@@ -67,9 +66,9 @@
 }
 
 .service-card:hover {
-  transform: translateY(-5px); /* Elevates the card */
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); /* Soft shadow on hover */
-  border-color: rgba(85, 138, 141, 0); /* Border disappears */
+  transform: translateY(-5px); 
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  border-color: rgba(85, 138, 141, 0); 
 }
 
 .image-circle {

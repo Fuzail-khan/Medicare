@@ -1,4 +1,3 @@
-/* Container */
 .our-doctors-section {
   width: 1200px;
   margin: 0 auto;
@@ -7,7 +6,6 @@
   margin-bottom: 50px;
 }
 
-/* First Section */
 .our-doctors-header {
   display: flex;
   justify-content: space-between;
@@ -34,10 +32,9 @@
 .main-title {
   font-size: 30px;
   color: rgb(54, 131, 135);
-  line-height: 1.2; /* Adjust line height for better spacing */
+  line-height: 1.2; 
 }
 
-/* Button Design */
 .view-all-doctors-btn {
   background-color: #368387;
   color: white;
@@ -75,32 +72,32 @@
 }
 
 .doctor-image {
-  width: 100%; /* Adjust image to fill the card */
+  width: 100%; 
   height: auto;
   margin-bottom: 20px;
 }
 
 .doctor-specialization {
   color: #558a8d;
-  background-color: #ecf8f2; /* Initial background color */
+  background-color: #ecf8f2; 
   border-radius: 18.5px;
   padding: 4px 25px;
   font-size: 14px;
   line-height: 1.76;
   display: inline-block;
-  transition: background-color 0.3s ease; /* Smooth transition */
+  transition: background-color 0.3s ease; 
 }
 
 .doctor-card:hover .doctor-specialization {
-  background-color: #558a8d; /* Hover background color */
-  color: white; /* Change text color on hover */
+  background-color: #558a8d; 
+  color: white; 
 }
 
 .doctor-name {
   font-size: 18px;
   margin-top: 10px;
   margin-bottom: -10px;
-  color: #558a8d; /* Set doctor name text color */
+  color: #558a8d; 
 }
 
 .doctor-qualifications {

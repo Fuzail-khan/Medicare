@@ -29,11 +29,11 @@ const ContactForm = () => {
         alert('Message sent successfully!');
         setFormData({ name: '', email: '', phone: '', message: '' }); // Reset form
       } else {
-        console.error('Response error:', result); // Log the result for debugging
-        alert(result.error || 'Error sending message'); // Provide more specific error
+        console.error('Response error:', result); 
+        alert(result.error || 'Error sending message');
       }
     } catch (error) {
-      console.error('Error:', error); // Log the error for debugging
+      console.error('Error:', error); 
       alert('Failed to send message. Try again later.');
     }
   };

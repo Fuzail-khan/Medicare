@@ -52,7 +52,6 @@ const Navbar = () => {
 
   return (
     <nav>
-      {/* Full-width First Section */}
       <div className="first-section">
         <div className="container">
           <div>
@@ -63,7 +62,6 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Full-width Second Section */}
       <div className="second-section">
         <div className="container">
           <img src="/logo.png" alt="Logo" className="logo" /> {/* Logo Image */}
@@ -73,7 +71,6 @@ const Navbar = () => {
             <Link to="/providers">Our Providers</Link>
             <Link to="/contact">Contact Us</Link>
           </div>
-          {/* Link to Login Page */}
           <Link to="/login">
             <button className="login-button">Login</button>
           </Link>

@@ -1,12 +1,11 @@
 import React from 'react';
-import './WhyChooseUs.css'; // Ensure your CSS file is linked
-import backgroundVideo from './video3.mp4'; // Adjust the import path
+import './WhyChooseUs.css'; 
+import backgroundVideo from './video3.mp4'; 
 
 
 const WhyChooseUs = () => {
   return (
     <div className="why-choose-us-section">
-      {/* Left Column */}
       <div className="left-column-last">
         <span className="small-text">Why Choose Us</span>
         <h2 className="main-title">Why Should You <br /> Choose Us?</h2>
@@ -19,7 +18,6 @@ const WhyChooseUs = () => {
         <button className="book-appointment-btn">Book Appointment</button>
       </div>
 
-      {/* Right Column with Background Video */}
       <div className="right-column">
       <video className="background-video" autoPlay loop muted playsInline>
           <source src={backgroundVideo} type="video/mp4" />

@@ -1,30 +1,30 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
-import './ServiceAndCarousel.css'; // Ensure this file is in the same folder
+import './ServiceAndCarousel.css'; 
 
 const services = [
   {
-    image: 'images/cardiology.png', // Adjusted path
+    image: 'images/cardiology.png', 
     title: 'Cardiology',
     description: 'Our board-certified cardiologists treat and prevent cardiovascular problems with a focus on heart health.',
   },
   {
-    image: 'images/oncology.png', // Adjusted path
+    image: 'images/oncology.png', 
     title: 'Oncology',
     description: 'Cancer treatments provided by our oncologists are personalized and provided with unwavering support.',
   },
   {
-    image: 'images/neurology.png', // Adjusted path
+    image: 'images/neurology.png', 
     title: 'Neurology',
     description: 'Specialized care for brain and nerve disorders, ensuring expert diagnosis and compassionate treatment.',
   },
   {
-    image: 'images/ophthalmology.png', // Adjusted path
+    image: 'images/ophthalmology.png',
     title: 'Ophthalmology',
     description: 'In order to keep your vision healthy, our ophthalmologists provide eye exams and surgeries.',
   },
   {
-    image: 'images/pediatrics.png', // Adjusted path
+    image: 'images/pediatrics.png', 
     title: 'Pediatrics',
     description: 'Complete care for children, from check-ups to treatments, delivered with compassion and expertise.',
   },
@@ -32,8 +32,8 @@ const services = [
 
 const ServiceAndCarousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [isVisible, setIsVisible] = useState(false); // State to track visibility
-  const sectionRef = useRef(null); // Ref for the container
+  const [isVisible, setIsVisible] = useState(false); 
+  const sectionRef = useRef(null); 
 
   const totalItems = services.length;
 
@@ -56,11 +56,11 @@ const ServiceAndCarousel = () => {
           if (entry.isIntersecting) {
             setIsVisible(true);
           } else {
-            setIsVisible(false); // Set to false when not in view
+            setIsVisible(false); 
           }
         });
       },
-      { threshold: 0.1 } // Trigger when 10% of the section is visible
+      { threshold: 0.1 } 
     );
 
     if (sectionRef.current) {
@@ -76,7 +76,6 @@ const ServiceAndCarousel = () => {
 
   return (
     <div className={`service-carousel-container ${isVisible ? 'zoom-in' : ''}`} ref={sectionRef}>
-      {/* Service Section */}
       <div className="service-section">
         <div className="content-container">
           <span className="service-label">Services</span>

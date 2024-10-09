@@ -10,7 +10,7 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  align-items: flex-start; /* Align columns' content at the top */
+  align-items: flex-start;
 }
 
 .footer-column {
@@ -18,16 +18,16 @@
   margin: 10px;
   min-width: 200px;
   display: flex;
-  flex-direction: column; /* Ensure content stacks vertically */
-  align-items: flex-start; /* Make sure content aligns to the top */
+  flex-direction: column; 
+  align-items: flex-start; 
 }
 .footer-column2 {
   flex: 1 1;
   margin: 10px;
   min-width: 200px;
   display: flex;
-  flex-direction: column; /* Ensure content stacks vertically */
-  align-items: flex-start; /* Make sure content aligns to the top */
+  flex-direction: column; 
+  align-items: flex-start; 
 }
 
 .footer-column3 {
@@ -35,8 +35,8 @@
   margin: 10px;
   min-width: 200px;
   display: flex;
-  flex-direction: column; /* Ensure content stacks vertically */
-  align-items: flex-start; /* Make sure content aligns to the top */
+  flex-direction: column; 
+  align-items: flex-start;
 }
 
 .footer-logo {

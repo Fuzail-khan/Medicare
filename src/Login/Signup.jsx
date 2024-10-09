@@ -11,7 +11,6 @@ const Signup = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle sign-up logic here
     console.log('First Name:', firstName, 'Last Name:', lastName, 'Email:', email, 'Password:', password);
   };
 

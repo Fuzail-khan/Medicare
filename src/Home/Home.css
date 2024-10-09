@@ -1,8 +1,7 @@
 .home {
-  font-family: "Noto Sans", sans-serif; /* Ensure the font is applied */
+  font-family: "Noto Sans", sans-serif; 
 }
 
-/* First Section */
 
 #home-bg {
   margin-top: 20px;
@@ -14,37 +13,35 @@
   background-repeat: no-repeat;
 }
 .homepage-first-section {
-  align-items: left; /* Vertically center the content */
-  padding: 0 20px; /* Add horizontal padding */
-  color: #558a8d; /* Text color */
+  align-items: left; 
+  padding: 0 20px; 
+  color: #558a8d; 
 }
 
-/* Title Style */
 .title {
   font-size: 75px;
   color: #558a8d;
   letter-spacing: 4px;
-  text-transform: uppercase; /* Adjust font size as needed */
+  text-transform: uppercase; 
 }
 
 /* Second Section */
 .homepage-second-section {
-  padding: 0px 0px; /* Add padding */
-  background-color: #ffffff; /* Background color for the second section */
-  text-align: left; /* Center text */
-  color: #368387; /* Text color */
+  padding: 0px 0px; 
+  background-color: #ffffff; 
+  text-align: left; 
+  color: #368387; 
 }
 
-/* Two Columns Layout */
 .two-columns {
-  display: flex; /* Use flexbox for columns */
+  display: flex; 
 }
 
 /* Column Styles */
 .column {
-  flex: 1; /* Each column takes equal space */
-  padding: 0 20px; /* Add horizontal padding */
-  width: 50%; /* Ensure each column is 50% width */
+  flex: 1; 
+  padding: 0 20px; 
+  width: 50%; 
 }
 
 #home-text {
@@ -55,15 +52,14 @@
   margin-top: -95px;
 }
 
-/* Content Container for Second Section */
 .content-container {
-  max-width: 1200px; /* Set max width for the inner content */
-  margin: 0 auto; /* Center the content */
+  max-width: 1200px; 
+  margin: 0 auto; 
 }
 
 .team-image {
-  width: 100%; /* Cover full width */
-  height: auto; /* Maintain aspect ratio */
-  object-fit: cover; /* Ensure the image covers the area */
+  width: 100%; 
+  height: auto;
+  object-fit: cover; 
   border-radius: 80px 10px;
 }
