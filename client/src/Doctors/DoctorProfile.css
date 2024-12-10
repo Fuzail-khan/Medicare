@@ -122,28 +122,6 @@ button[type="submit"]:hover {
   background-color: #466f71;
 }
 
-/* Media query for responsiveness */
-@media screen and (max-width: 768px) {
-  .doctor-profile-container {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .doctor-left-column {
-    margin-right: 0;
-    margin-bottom: 20px;
-  }
-
-  .doctor-right-column {
-    align-items: center;
-    text-align: center;
-  }
-
-  button[type="submit"] {
-    width: 100%;
-  }
-}
-
 /* Customize the date picker container */
 .react-datepicker {
   font-family: "Arial", sans-serif;
@@ -356,4 +334,35 @@ option {
 .validation-error {
   color: red;
   font-size: 14px;
+}
+/* Media query for responsiveness */
+@media screen and (max-width: 768px) {
+  .doctor-profile-container {
+    display: block;
+  }
+  .doctor-left-column {
+    margin-right: 0px;
+    max-width: 100%;
+  }
+  .doctor-right-column {
+    display: block;
+    margin-top: 20px;
+  }
+  .datepicker-container {
+    display: block;
+  }
+  .available-times {
+    margin-left: 0px;
+  }
+  .react-datepicker__day-name {
+    color: white;
+    width: 42px !important;
+  }
+  .react-datepicker__day {
+    color: #558a8d;
+    font-weight: bold;
+    padding: 6px;
+    border-radius: 0;
+    transition: background-color 0.3s ease;
+  }
 }

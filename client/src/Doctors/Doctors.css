@@ -133,3 +133,62 @@ p {
 #search {
   width: 93%;
 }
+@media screen and (max-width: 768px) {
+  .doctors-page {
+    display: block;
+    margin-top: 30px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 0px;
+  }
+  .left-sidebar {
+    margin-right: 0px;
+    margin-top: 30px;
+  }
+  .doctors-grid {
+    display: block;
+  }
+}
+@media (max-width: 768px) {
+  .doctors-grid {
+    grid-template-columns: repeat(
+      2,
+      1fr
+    ) !important; /* Display two columns on tablets */
+    gap: 15px; /* Reduce gap between items */
+  }
+
+  .doctor-card img {
+    width: 80%; /* Slightly smaller image for better fit */
+    margin: 0 auto; /* Center the image */
+  }
+
+  .book-appointment-btn {
+    font-size: 16px !important; /* Adjust button size for smaller screens */
+    padding: 6px 20px; /* Reduce padding */
+  }
+}
+
+@media (max-width: 480px) {
+  .doctors-grid {
+    grid-template-columns: 1fr !important; /* Single column on smaller screens */
+    gap: 10px; /* Further reduce gap */
+  }
+
+  .doctor-card {
+    padding: 10px; /* Reduce padding inside cards */
+  }
+
+  .doctor-card img {
+    width: 100%; /* Make the image fill the width of its container */
+    height: auto; /* Maintain the aspect ratio */
+    object-fit: cover; /* Ensure the image scales without distortion */
+    border-radius: 5px;
+    display: block; /* Remove any inline spacing around images */
+  }
+
+  .book-appointment-btn {
+    font-size: 14px !important; /* Smaller font size for buttons */
+    padding: 5px 15px; /* Further reduce padding */
+  }
+}
