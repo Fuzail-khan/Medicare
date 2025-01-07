@@ -137,3 +137,22 @@
 .appointment-details-column h4 {
   margin-bottom: 10px;
 }
+
+@media (max-width: 768px) {
+  .profile-left-sidebar {
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  .profile-page {
+    display: table-header-group;
+    width: 100%;
+  }
+  .two-columns-pro {
+    display: grid;
+  }
+  .appointment-details-column,
+  .patient-details-pro {
+    width: 100%;
+  }
+}

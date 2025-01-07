@@ -366,9 +366,11 @@ textarea {
 
 /* Mobile devices (up to 600px) */
 @media (max-width: 600px) {
-  .contact-columns {
-    flex-direction: column;
-    gap: 10px;
+  .container {
+    width: 93%;
+  }
+  .contact-header h1 {
+    font-size: 40px;
   }
 
   .contact-header h1 {
@@ -381,13 +383,13 @@ textarea {
 
   .box-container {
     flex-direction: column;
-    width: 100%;
+    width: 98%;
   }
 
   .box-1,
   .box-2,
   .box-3 {
-    width: 100%;
+    width: 89%;
     margin: 10px 0;
   }
 
@@ -407,9 +409,15 @@ textarea {
 
 /* Tablet devices (601px to 768px) */
 @media (min-width: 601px) and (max-width: 768px) {
-  .contact-columns {
-    flex-direction: column;
-    gap: 15px;
+  .container {
+    width: 92%;
+  }
+
+  .contact-header h1 {
+    font-size: 50px;
+  }
+  .second-section .container {
+    width: 92%;
   }
 
   .contact-header h1 {
@@ -429,7 +437,7 @@ textarea {
   .box-1,
   .box-2,
   .box-3 {
-    width: 45%;
+    width: 82%;
     margin: 10px;
   }
 
@@ -445,11 +453,12 @@ textarea {
 
 /* Small desktops (769px to 1024px) */
 @media (min-width: 769px) and (max-width: 1024px) {
-  .contact-columns {
-    flex-direction: row;
-    gap: 20px;
+  .container {
+    width: 96%;
   }
-
+  .contact-header h1 {
+    font-size: 55px;
+  }
   .contact-header h1 {
     font-size: 55px;
   }
@@ -460,7 +469,7 @@ textarea {
 
   .box-container {
     flex-wrap: wrap;
-    width: 100%;
+    width: 98%;
   }
 
   .box-1,
